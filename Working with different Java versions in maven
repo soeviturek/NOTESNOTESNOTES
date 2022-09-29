@@ -1,0 +1,10 @@
+1. I have java sdk 8, 11 and 18 on my local machine.
+I was using 8 or 1.8 for the maven project.
+One teammate used 11 so he changed <properties> java version to 11
+
+2.Changing from different java versions on local machine:
+  Go to env (system variables), add JAVA_HOME in the system variable and put path to sdk (D:/programming/java/sdk11)
+  Go to path and add %JAVA_HOME%/bin.
+  In that case you can switch between java
+
+3. delete C:Program Files x86/common files/oracle/java from path, this is auto added to path variables upon installsation and it will affect java version!
